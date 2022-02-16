@@ -30,24 +30,28 @@ img{
 }
 .my-img-box{
     border: 1px solid gold;
-    width: calc(100% / 5);
-    
-    
+    width: calc(100% / 5);   
 }
 .bg-banner{
     background-image: url('../img/jumbo-bg.png');
+    background-position: center;
     background-size: cover;
 }
 .bg-banner2{
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-position: center;
     background-size: cover;
 }
 .bg-banner3{
     background-image: url('../img/ps-plus-april-monthly-games-featured-image-block.png');
-    background-size: cover;
+    background-position: center;
     background-color: gray;
+    background-size: cover;
 }
 .my-bg-blue{
-    background-color: rgb(6, 6, 42);
-   
+    background-color: rgb(6, 6, 42);   
+}
+
+ul{
+    list-style-type: none;  
 }
