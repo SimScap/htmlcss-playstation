@@ -45,4 +45,9 @@ img{
 .bg-banner3{
     background-image: url('../img/ps-plus-april-monthly-games-featured-image-block.png');
     background-size: cover;
+    background-color: gray;
+}
+.my-bg-blue{
+    background-color: rgb(6, 6, 42);
+   
 }
