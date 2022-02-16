@@ -13,6 +13,8 @@
 }
 .my-container{
     border: 2px solid salmon;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 .my-card{
     border:1px solid blue;
@@ -38,12 +40,19 @@ img{
 }
 .bg-banner3{
     background-image: url('../img/ps-plus-april-monthly-games-featured-image-block.png');
-    background-position: center;
+    background-position: right;
     background-color: gray;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .my-bg-blue{
     background-color: rgb(6, 6, 42);   
+}
+.my-p{
+    padding: 3rem;
+}
+.my-btn{
+    width: 200px;
 }
 ul{
     list-style-type: none;  
@@ -54,6 +63,12 @@ ul{
         border: 1px solid gold;
         width: calc(100% / 3);   
     }
+    .my-container{
+        border: 2px solid salmon;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    
     
 }
 
@@ -61,6 +76,17 @@ ul{
     .my-hide{
         display: none;
     }
+    .my-p{
+        padding: 1rem;
+    }
+    .bg-banner3{
+        background-image: url('');
+        background-position: right;
+        background-color: gray;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
 
     
 }
