@@ -16,13 +16,33 @@
 .my-container{
     border: 2px solid salmon;
 }
-.card{
+.my-card{
     border:1px solid blue;
-    height: 100%;
     border-radius: .5rem;
     margin-bottom: 1rem;
 }
 img{
-    border-radius: .5rem;
+    border-radius: .5rem;   
+}
+
+.card{
+    border: 1px solid blue;
+}
+.my-img-box{
+    border: 1px solid gold;
+    width: calc(100% / 5);
     
+    
+}
+.bg-banner{
+    background-image: url('../img/jumbo-bg.png');
+    background-size: cover;
+}
+.bg-banner2{
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-size: cover;
+}
+.bg-banner3{
+    background-image: url('../img/ps-plus-april-monthly-games-featured-image-block.png');
+    background-size: cover;
 }
