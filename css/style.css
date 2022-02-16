@@ -54,5 +54,14 @@ ul{
         border: 1px solid gold;
         width: calc(100% / 3);   
     }
+    
+}
+
+@media  screen and (max-width: 768px) {
+    .my-hide{
+        display: none;
+    }
+
+    
 }
     
