@@ -1,9 +1,7 @@
 .bg-dark{
     height: 30px;
 }
-.jumbotron{
-    
-}
+
 .container-fluid{
     border: 2px solid black;
 }
@@ -23,10 +21,6 @@
 }
 img{
     border-radius: .5rem;   
-}
-
-.card{
-    border: 1px solid blue;
 }
 .my-img-box{
     border: 1px solid gold;
@@ -51,7 +45,14 @@ img{
 .my-bg-blue{
     background-color: rgb(6, 6, 42);   
 }
-
 ul{
     list-style-type: none;  
 }
+
+@media screen and (max-width: 576px){
+    .my-img-box{
+        border: 1px solid gold;
+        width: calc(100% / 3);   
+    }
+}
+    
