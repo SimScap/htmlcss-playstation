@@ -1,18 +1,7 @@
 .bg-dark{
     height: 30px;
 }
-
-.container-fluid{
-    border: 2px solid black;
-}
-.container{
-    border: 2px solid red;
-}
-.row{
-    border: 1px solid blueviolet;
-}
 .my-container{
-    border: 2px solid salmon;
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
@@ -25,7 +14,6 @@ img{
     border-radius: .5rem;   
 }
 .my-img-box{
-    border: 1px solid gold;
     width: calc(100% / 5);   
 }
 .bg-banner{
@@ -50,7 +38,6 @@ img{
 }
 .my-bg-footer{
     background-color: rgb(0, 112, 209);
-
 }
 .my-p{
     padding: 3rem;
@@ -61,27 +48,18 @@ img{
 ul{
     list-style-type: none;  
 }
-.my-footer-logo{
-    width: 150px;
+.my-logo{
+    width: 120px;
 }
-.logo-white{
-    filter: brightness(2)
-}
-
 @media screen and (max-width: 576px){
     .my-img-box{
-        border: 1px solid gold;
         width: calc(100% / 3);   
     }
     .my-container{
-        border: 2px solid salmon;
         padding-top: 1rem;
         padding-bottom: 1rem;
-    }
-    
-    
+    }  
 }
-
 @media  screen and (max-width: 768px) {
     .my-hide{
         display: none;
@@ -95,9 +73,6 @@ ul{
         background-color: gray;
         background-size: contain;
         background-repeat: no-repeat;
-    }
-
-
-    
+    }  
 }
     
