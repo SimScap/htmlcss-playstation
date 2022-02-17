@@ -48,6 +48,10 @@ img{
 .my-bg-blue{
     background-color: rgb(6, 6, 42);   
 }
+.my-bg-footer{
+    background-color: rgb(0, 112, 209);
+
+}
 .my-p{
     padding: 3rem;
 }
@@ -56,6 +60,12 @@ img{
 }
 ul{
     list-style-type: none;  
+}
+.my-footer-logo{
+    width: 150px;
+}
+.logo-white{
+    filter: brightness(2)
 }
 
 @media screen and (max-width: 576px){
