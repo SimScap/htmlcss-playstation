@@ -90,5 +90,13 @@ ul{
         background-color: rgb(6, 6, 42);   
         background-position: right;
     }
+    .my-container{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        text-align: center;
+    }  
+    .my-btn{
+        align-self: center;
+    }
 }
     
