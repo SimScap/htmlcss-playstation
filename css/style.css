@@ -60,14 +60,6 @@ ul{
     .my-img-box{
         width: calc(100% / 3);   
     }
-    .my-container{
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        text-align: center;
-    }  
-    .my-btn{
-        align-self: center;
-    }
 }
 @media  screen and (max-width: 768px) {
     .my-hide{
