@@ -51,6 +51,7 @@ ul{
 .my-logo{
     width: 120px;
 }
+
 @media screen and (max-width: 576px){
     .my-img-box{
         width: calc(100% / 3);   
