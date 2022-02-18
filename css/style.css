@@ -1,5 +1,8 @@
-.bg-dark{
-    height: 30px;
+header{
+    font-family: Helvetica;
+}
+main{
+    font-family: Arial;
 }
 .my-container{
     padding-top: 3rem;
